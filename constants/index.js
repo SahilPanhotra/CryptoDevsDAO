@@ -1,0 +1,8 @@
+// Replace the value with your NFT contract address
+const CRYPTODEVS_NFT_CONTRACT_ADDRESS =
+  "0x97F0eAd652346F38439e3C96002B58d214f1AD40";
+
+module.exports = { CRYPTODEVS_NFT_CONTRACT_ADDRESS };
+
+const FakeMarketplaceAddress=  "0x20f64c9EFd64AFbF128F6A20E099d59190957D85";
+const CryptoDevsDAO=  "0x4a9B0086B4C5df8C14B4BAD455354564472f36D3"

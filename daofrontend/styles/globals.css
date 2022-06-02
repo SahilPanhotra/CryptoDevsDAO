@@ -1,0 +1,38 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.button {
+  @apply bg-blue-600 border-0 rounded-r-full text-white text-sm p-3 w-52 cursor-pointer mr-[2%] hover:bg-purple-600;  
+}
+.button2 {
+  @apply bg-[#4b0082] border-0 rounded-r-full text-white text-sm p-3 w-52 cursor-pointer mr-[2%] mt-4 hover:bg-blue-500;
+}
+.description{
+  @apply leading-6 mx-8 my-5 text-xl ;
+}
+
+.proposalCard {
+  @apply mt-1 border-black border-solid border-2 flex-1 flex-col w-fit;
+}
+
+.main {
+  @apply min-h-screen flex  flex-row justify-center items-center font-sans ;
+  font-family: "Courier New", Courier, monospace;
+}
+
+.footer {
+  @apply flex px-8 py-0 border-t border-solid border-white justify-center items-center;
+}
+
+.image {
+   @apply w-9/12 h-2/4 ml-[20%] ;
+}
+
+.title {
+  @apply text-4xl mx-8 my-3;
+}
+.proposalCard {
+  @apply w-fit mt-1 border-black border-2 border-solid flex-1 flex-col;
+  
+}
